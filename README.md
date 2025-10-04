@@ -98,27 +98,6 @@ pip install -r requirements.txt
 pip install -e .
 ```
 
-## Quick Start
-
-```python
-from src.bag_model import BayesianAttackGraph
-from src.kalman_detection import MMSEDetector
-from src.adaptive_monitoring import AdaptiveMonitor
-
-# Load or create a Bayesian Attack Graph
-bag = BayesianAttackGraph.from_config('data/topology_configs/example.json')
-
-# Initialize MMSE detector
-detector = MMSEDetector(bag)
-
-# Set up adaptive monitoring
-monitor = AdaptiveMonitor(bag, threshold=0.1)
-
-# Run detection
-observations = bag.get_observations()
-attack_probability = detector.detect(observations)
-monitoring_plan = monitor.update_policy(detector.prediction_error)
-```
 
 ## Experimental Results
 
@@ -164,7 +143,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Support
 
 For questions about the implementation or paper, please:
-Contact the authors directly via LinkedIn or 
+Contact the authors directly on LinkedIn 
 
 ---
 
