@@ -4,7 +4,7 @@ Optimal monitoring and attack detection of networks modeled by Bayesian attack g
 
 This repository contains the implementation of optimal minimum mean square error (MMSE) attack detection algorithms for Bayesian Attack Graphs (BAGs), as described in our paper published in Cybersecurity journal.
 
-
+*Note: the codes in this repository are not the final version and require cleaning/instructions.*
 
 # Optimal Monitoring and Attack Detection of Networks Modeled by Bayesian Attack Graphs
 
@@ -55,47 +55,18 @@ Traditional attack detection techniques for BAGs assume network compromises will
 ## Repository Structure
 
 ```
-├── src/                          # Core implementation
-│   ├── bag_model.py             # Bayesian Attack Graph modeling
-│   ├── kalman_detection.py      # MMSE-optimal detection algorithms  
-│   ├── adaptive_monitoring.py   # Resource allocation policies
-│   └── utils.py                 # Helper functions and utilities
-├── notebooks/                    # Demonstration notebooks
-│   ├── demo_synthetic_networks.ipynb
-│   ├── performance_evaluation.ipynb
-│   └── topology_analysis.ipynb
-├── data/                        # Sample network topologies
-│   ├── synthetic_bags/          # Generated test networks
-│   └── topology_configs/        # Network configuration files
-├── results/                     # Experimental outputs
-│   ├── figures/                 # Performance plots
-│   └── metrics/                 # Numerical results
-├── tests/                       # Unit tests
-├── requirements.txt             # Python dependencies
-├── setup.py                     # Package installation
-├── LICENSE                      # MIT License
-└── README.md                    # This file
+incomplete
 ```
 
-## Installation
-
 ### Prerequisites
-- Python 3.8 or higher
-- NumPy, SciPy for numerical computations
-- NetworkX for graph operations
+- incomplete
+- Python 
+- NumPy
 - Matplotlib for visualization
 
 ### Setup
 ```bash
-# Clone the repository
-git clone https://github.com/yourusername/bayesian-attack-graphs.git
-cd bayesian-attack-graphs
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Install the package
-pip install -e .
+incomplete
 ```
 
 
